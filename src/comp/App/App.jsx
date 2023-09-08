@@ -1,4 +1,3 @@
-import "./App.module.css";
 import AppHeader from "../appHeader";
 import Name from "../name.jsx";
 import AppFooter from "../appFooter";
@@ -15,15 +14,12 @@ import FasadConstFirstPage from "../fasadConstFirstPage";
 import Contacts from "../contacts";
 import Uslugi from "../uslugi";
 import StanokTEST from "../stanokTEST";
+import React from "react";
+import styles from "./App.module.css";
 
 function App() {
-
   return (
-    <div
-      style={{
-        width: "1073px",
-      }}
-    >
+  <div className={styles.test}>
       <AppHeader />
       <div>
         <Name />
@@ -34,8 +30,8 @@ function App() {
         <FasadConst />
         <Contacts />
         <PlusUs />
-        <Uslugi/>
-        <StanokTEST/>
+        <Uslugi />
+        <StanokTEST />
       </div>
       <AppFooter5 />
     </div>
