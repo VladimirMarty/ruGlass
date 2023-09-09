@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.p1 {
+    font-size: 5px;
+    margin: 0;
+}
+
+.p2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.p3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.video {
+    width: 200px;
+}

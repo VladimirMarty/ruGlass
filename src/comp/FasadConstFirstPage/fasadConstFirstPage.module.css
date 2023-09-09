@@ -1,0 +1,39 @@
+.all {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #7777773b;
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.main {
+    display: flex;
+    margin-left: 31px;
+    flex-direction: column;
+    width: 420px,
+}
+
+.h1 {
+    font-size: 40px;
+    width: 1000px;
+    margin-bottom: 20px
+}
+
+.p {
+    font-size: 20px;
+    margin-left: 150px;
+    margin: 0
+}
+
+.a {
+    overflow: hidden;
+    margin-left: 10px;
+    font-size: 25px;
+    margin: 0
+}
+
+.image {
+    width: 400px;
+}

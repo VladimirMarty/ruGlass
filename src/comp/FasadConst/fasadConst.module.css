@@ -1,0 +1,51 @@
+    .all {
+        height: 100%;
+        border: 2px solid black;
+        margin: 30px;
+        padding: 30px
+    }
+    
+    .first {
+        height: 100%;
+        border: 2px solid black
+    }
+    
+    .image {
+        width: 100%;
+        height: 100%
+    }
+    
+    .h1 {
+        font-size: 70px;
+        margin: 0
+    }
+    
+    .second {
+        height: 100%;
+        border: 2px solid black
+    }
+    
+    .ulli {
+        display: flex;
+    }
+    
+    .third {
+        height: 100%;
+        border: 2px solid black
+    }
+    
+    .third2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center
+    }
+    
+    .thirdImage {
+        width: 100px;
+        height: 100px
+    }
+    
+    .four {
+        height: 100%;
+        border: 2px solid black
+    }

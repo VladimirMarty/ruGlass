@@ -1,0 +1,18 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 31px;
+}
+
+.div {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.p {
+    font-size: 20px;
+    margin-left: 100px
+}

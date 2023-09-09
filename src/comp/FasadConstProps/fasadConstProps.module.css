@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.image {
+    width: 300px;
+    margin: 10px;
+}
+
+.p {
+    font-size: 30px;
+}
+
+.system {
+    display: flex;
+}

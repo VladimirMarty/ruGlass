@@ -1,38 +1,23 @@
+import styles from '../UslugiFirstPage/uslugiFirstPage.module.css'
 function UslugiFirstPage() {
     return (
-        <div
-        style={{
-          display: "flex",
-          margin: "30px",
-          border: "2px solid black",
-          alignItems: "center",
-        }}
+        <div className={styles.all}
+   
       >
         {" "}
-        <p
-          style={{
-            fontSize: "40px",
-            width: "1000px",
-            padding: "20px",
-          }}
+        <p className={styles.p1}
+   
         >
           Наши Услги
         </p>
-        <p
-          style={{
-            fontSize: "20px",
-            padding: "20px",
-            // marginLeft: "150px",
-          }}
+        <p className={styles.p2}
+    
         >
           Мы выполним работы по металлообработке любой сложности, сделаем это
           быстро и с высокой точностью, в соответствии с техническим заданием. ‍
           Готовы работать в индивидуальных проектах и специальных условиях.
-          <a
-            style={{
-              marginLeft: "10px",
-              fontSize: "25px",
-            }}
+          <a className={styles.a}
+     
           >
             {" "}
             Подробнее &#10144;

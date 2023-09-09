@@ -1,0 +1,14 @@
+.all {
+    max-width: 1140px;
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    overflow: hidden;
+    font-size: 40px;
+    display: inline-block;
+    flex: 1 1 auto;
+}

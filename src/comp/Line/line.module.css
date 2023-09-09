@@ -1,0 +1,27 @@
+.all {
+    position: relative;
+}
+
+.ul {
+    display: flex;
+    overflow-x: auto;
+    list-style: none;
+    padding: 0px;
+    margin: 30px;
+}
+
+.li {
+    display: flex;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}

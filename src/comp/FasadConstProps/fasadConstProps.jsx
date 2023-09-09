@@ -1,35 +1,13 @@
-import objects from "../utils/dataObjects";
-
+import objects from "../../utils/dataObjects";
+import styles from "../FasadConstProps/fasadConstProps.module.css";
 function FasadConstProps({ item }) {
   return (
-    <form
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-around",
-     
-        border:'1px solid black'
-      }}
-    >
-      <img
-        src={item.image}
-        alt={item.name}
-        style={{
-          width: "300px",
-          margin:'10px'
-        }}
-      />
+    <form className={styles.form}>
+      <img className={styles.image} src={item.image} alt={item.name} />
       <div>
-        <p      style={{
-       
-       fontSize:'30px'
-      }}>{item.name}</p>
+        <p className={styles.p}>{item.name}</p>
 
-        <div      style={{
-        display: "flex",
-     
-      }}
-        >
+        <div className={styles.system}>
           <p>Система</p>
           <p>{item.system}</p>
 

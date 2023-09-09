@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background-color: black;
+    flex-direction: column;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 200px;
+    margin-right: 280px;
+}
+
+.ul {
+    margin-left: 180px;
+}
+
+.li {
+    color: white
+}
+
+.adress {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.a1 {
+    color: white
+}
+
+.a2 {
+    color: white;
+    margin-left: 40px;
+}

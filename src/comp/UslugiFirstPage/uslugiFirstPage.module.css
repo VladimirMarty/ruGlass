@@ -1,0 +1,22 @@
+.all {
+    display: flex;
+    margin: 30px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.p1 {
+    font-size: 40px;
+    width: 1000px;
+    padding: 20px
+}
+
+.p2 {
+    font-size: 20px;
+    padding: 20px
+}
+
+.a {
+    margin-left: 10px;
+    font-size: 25px;
+}

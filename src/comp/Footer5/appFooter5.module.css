@@ -1,0 +1,50 @@
+.footer {
+    padding: 30px;
+    background-color: black;
+}
+
+.bigus {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.image {
+    width: 500px;
+    margin-right: 280px;
+}
+
+.us {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+}
+
+.a {
+    color: gray;
+    margin-left: 40px;
+}
+
+.p1 {
+    color: gray;
+    margin-left: 40px;
+}
+
+.uslugi {
+    height: 134px;
+}
+
+.div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p {
+    color: white;
+    margin: 0px;
+}
