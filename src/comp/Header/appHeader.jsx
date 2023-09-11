@@ -15,7 +15,7 @@ const AppHeader = () => {
         alt="RUGLASS"
        
       />
-      <a>+ 7 495 787-89-04</a>
+      <a className={styles.a}>+ 7 495 787-89-04</a>
     </header>
   );
 };

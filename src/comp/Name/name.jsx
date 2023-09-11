@@ -27,10 +27,6 @@ const Name = () => {
         </h2>
       </div>
 
-      <div
-        className={styles.link}
-       
-      >
      
           <a
             className={styles.a}
@@ -38,10 +34,14 @@ const Name = () => {
           >
             Реализуем полный цикл поддержки своих клиентов: от проектирования
             конкретного изделия и разработки технического задания до реализации
-            сопутствующих услуг. Подробнее &#10144;
+            сопутствующих услуг. 
+           <p className={styles.p}> Подробнее <img 
+           className={styles.image}
+           src="../../../images/5.png"
+           alt="RUGLASS"/></p>
           </a>
        
-      </div>
+     
       <Tabs></Tabs>
     </div>
   );

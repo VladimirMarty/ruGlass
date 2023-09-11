@@ -26,7 +26,7 @@ function App() {
       // }}
     >
       <AppHeader />
-      <div>
+      <div   className={styles.div}>
         <Name />
         <UslugiFirstPage />
         <Line />
